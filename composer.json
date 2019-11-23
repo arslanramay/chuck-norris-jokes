@@ -1,0 +1,26 @@
+{
+    "name": "arslanramay/chuck-norris-jokes",
+    "description": "Create some random jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arslan Ramay",
+            "email": "arslanramay104@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ArslanRamay\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArslanRamay\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
